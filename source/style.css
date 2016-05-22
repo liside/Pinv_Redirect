@@ -329,17 +329,23 @@ main {
 .footer * {
     color: #1e1e1e
 }
-
+.main {
+    position: relative;
+}
 .theme {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding: 2em 2rem 0;
+    padding: 2rem 2em 0;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center
+    justify-content: center;
 }
 
 .theme-content {
